@@ -1,4 +1,2 @@
 W101,Lego Seti,Star Wars serisi
 W102,Sinema,Yeni film,2024-03-05 14:00
-W103,Kitap,Harry Potter 2
-W104,Yüzme Dersi,Özel ders

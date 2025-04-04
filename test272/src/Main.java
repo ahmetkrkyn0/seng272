@@ -3,12 +3,14 @@ import java.util.*;
 
 public class Main {
 	
-	private static final String TASKS_FILE = "C:/Users/ahmet/eclipse-workspace/test272/src/Tasks.txt";
-    private static final String WISHES_FILE = "C:/Users/ahmet/eclipse-workspace/test272/src/Wishes.txt";
-    private static final String COMMANDS_FILE = "C:/Users/ahmet/eclipse-workspace/test272/src/Commands.txt";
+	private static final String TASKS_FILE = "C:/Users/ahmet/seng272/test272/src/Tasks.txt";
+	private static final String WISHES_FILE = "C:/Users/ahmet/seng272/test272/src/Wishes.txt";
+	private static final String COMMANDS_FILE = "C:/Users/ahmet/seng272/test272/src/Commands.txt";
+
 	
     private static List<Task> tasks = new ArrayList<>();
     private static List<Wish> wishes = new ArrayList<>();
+
     private static int totalPoints = 0;
     private static int level = 1;
 
