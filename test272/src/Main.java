@@ -69,17 +69,20 @@ public class Main {
     private static void executeCommand(String command) {
         String[] parts = command.split(" ");
         switch (parts[0]) {
-            case "ADD_TASK1":
-                addTask(parts);
-                break;
             case "LIST_ALL_TASKS":
                 listTasks(parts.length > 1 ? parts[1] : null);
+                break;
+            case "LIST_ALL_WISHES":
+                listWishes();
                 break;
             case "TASK_DONE":
                 markTaskDone(parts[1]);
                 break;
             case "TASK_CHECKED":
                 checkTask(parts[1], Integer.parseInt(parts[2]));
+                break;
+            case "WISH_CHECKED":
+                checkWish(parts[1], parts[2], parts.length > 3 ? Integer.parseInt(parts[3]) : 1);
                 break;
             case "PRINT_BUDGET":
                 System.out.println("Toplam Puan: " + totalPoints);
@@ -92,11 +95,30 @@ public class Main {
         }
     }
 
-    private static void addTask(String[] parts) {
-        // ADD_TASK1 komut işleme mantığı
-        // Bu metodu ihtiyaca göre implement edin
+    private static void listWishes() {
+        System.out.println("\n=== Dilek Listesi ===");
+        for (Wish wish : wishes) {
+            System.out.println(wish);
+        }
+        System.out.println("==================\n");
     }
 
+    private static void checkWish(String wishId, String status, int requiredLevel) {
+        for (Wish wish : wishes) {
+            if (wish.getId().equals(wishId)) {
+                if (status.equals("APPROVED")) {
+                    wish.setApproved(true);
+                    wish.setRequiredLevel(requiredLevel);
+                    System.out.println(wishId + " numaralı dilek onaylandı. Gereken seviye: " + requiredLevel);
+                } else if (status.equals("REJECTED")) {
+                    wish.setApproved(false);
+                    System.out.println(wishId + " numaralı dilek reddedildi.");
+                }
+                return;
+            }
+        }
+        System.out.println(wishId + " numaralı dilek bulunamadı.");
+    }
     private static void listTasks(String filter) {
         for (Task task : tasks) {
             System.out.println(task);
