@@ -1,3 +1,10 @@
-101,Matematik Ödevi,Sayfa 10-20 çöz,2024-03-01 15:00,10
-102,Kitap Okuma,Harry Potter Bölüm 1,2024-03-02 18:00,5
-103,Fen Ödevi,Sayfa 20-30 çöz,2024-03-10 14:00,30
+101,Matematik Ödevi,Sayfa 10-20 çöz,2024-03-01 15:00,15
+102,Kitap Okuma,Harry Potter Bölüm 1,2024-03-02 18:00,10
+103,Fen Projesi,Güneş Sistemi Maketi,2024-03-03 17:00,20
+104,İngilizce Kelimeler,50 Kelime Ezberleme,2024-03-04 19:00,10
+105,Resim Ödevi,Manzara Çizimi,2024-03-05 16:00,15
+106,Müzik Çalışması,Flüt Egzersizi,2024-03-06 14:00,10
+107,Tarih Araştırması,Osmanlı Dönemi,2024-03-07 15:00,20
+108,Spor Aktivitesi,30 Dakika Yürüyüş,2024-03-08 10:00,5
+109,Sosyal Proje,Geri Dönüşüm Projesi,2024-03-09 16:00,25
+110,Kodlama Ödevi,Basit Hesap Makinesi,2024-03-10 20:00,30

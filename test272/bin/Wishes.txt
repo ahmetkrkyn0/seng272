@@ -1,2 +1,10 @@
-W101,Lego Seti,Star Wars serisi
-W102,Sinema,Yeni film,2024-03-05 14:00
+W101,Lego Seti,Star Wars Millennium Falcon,2500 TL
+W102,Sinema,Yeni Animasyon Filmi,2024-03-15 14:00
+W103,Tablet,Samsung Galaxy Tab,3000 TL
+W104,Bisiklet,Dağ Bisikleti,4000 TL
+W105,Oyun Konsolu,PlayStation 5,8000 TL
+W106,Yüzme Kursu,3 Aylık Kurs,2024-04-01 15:00
+W107,Robotik Kodlama Seti,Arduino Başlangıç Seti,1500 TL
+W108,Basketbol Topu,Spalding Marka,500 TL
+W109,Bilim Müzesi Gezisi,İnteraktif Sergi,2024-03-20 10:00
+W110,Satranç Kursu,2 Aylık Eğitim,2024-04-15 16:00
